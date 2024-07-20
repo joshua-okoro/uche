@@ -1,0 +1,636 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+}
+
+.logo{
+    width: 70px;
+    border-radius: 50px;
+     
+}
+.headercontainer{
+    background-color: orange;
+   
+}
+.heade{
+ 
+    display: flex;
+    position: relative;
+    padding-left: 4px;
+  
+}
+ .nav{
+    float: right;
+  
+    top: -50px;
+    position: relative;
+}
+.drop{
+    padding-right: 5px;
+    margin-top: 90px;
+    margin-right: 10px;
+    
+}
+
+.slidepic{
+    width: 95%;
+    height: 500px;
+    position: relative;
+   margin:100px auto;
+   position: relative;
+    overflow: hidden;
+   
+}
+.imgs{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    border: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    transition: 2s;
+   
+}
+.images{
+    
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+   overflow: hidden;
+   position: relative;
+}
+.paragraphgdiv{
+    width: 95%; 
+   margin: auto;
+    line-height: 25px;
+    margin-bottom: 70px;
+    margin-top: -100px;
+}
+.ptag{
+margin-left: 5px;
+opacity: 0.7;
+font-style: italic;
+font-size: 15px;
+}
+
+.imgsections1,.imgsections2,.imgsections3,.imgsections4,.imgsections5,.imgsections6,.imgsections7,.imgsections8,.imgsections9,.imgsections10,.imgsections11{
+    width: 96%;
+    height: 500px;
+
+   box-shadow: 0px 0px 5px gray;
+    margin:50px auto;    
+}
+.imgsections1{
+    position: relative;
+}
+
+
+#slide1{
+    background-image: url("examplepics/astronomy-1867616_1280.jpg");
+    height: 400px;
+}
+#slide2 {
+    background-image: url("examplepics/astronomy-1867616_1280.jpg");
+    height: 400px;
+}
+#slide3 {
+    background-image: url("examplepics/astronomy-1867616_1280.jpg");
+    height: 400px;
+}
+#slide4 {
+    background-image: url("examplepics/astronomy-1867616_1280.jpg");
+    height: 400px;
+}
+#slide5 {
+    background-image: url("examplepics/astronomy-1867616_1280.jpg");
+    height: 400px;
+}
+#slide6 {
+    background-image: url("examplepics/astronomy-1867616_1280.jpg");
+        height: 400px;
+}
+#slide7 {
+    background-image: url("examplepics/astronomy-1867616_1280.jpg");
+        height: 400px;
+}
+
+
+
+.but{
+    width: 200px;
+    margin:50px auto;
+    background-color: orange;
+}
+.donate1,.donate2{
+    width: 200px;
+    margin: auto;
+    justify-content: center;
+    background-color: orange;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    border: 1px solid black;
+    text-transform: uppercase,;
+   
+    
+}
+.donate1{
+ border: 1px solid white;
+}
+.but2{
+   
+  float: right;
+    position:fixed;
+   padding-left: 160px;
+ margin-top: 55px;
+
+  
+}
+.home{
+    color: black;
+}
+.but3{
+    position: absolute;
+    margin-top: -1400px;
+}
+.donate2{
+    border-radius: 10px ;
+    font-size: 25px;
+    text-transform: capitalize;
+    border: none;
+    border: 1px dotted black;
+    animation-name: donate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+.imgsections8{
+    background-color: black;
+    box-shadow: none;
+    color: white;
+    
+}
+.news{
+    width: 94%;
+    margin: auto;
+   padding-top: 10px;
+}
+
+.updatwimg{
+    width: 80%;
+    height: 430px;
+  text-align: center;
+   font-size: 20px;
+   text-transform: uppercase;
+   font-family:impact;
+    box-shadow: 0px 0px 5px  black;
+    margin: auto;
+    margin-top: -150px;
+
+}
+.back{
+   
+    background-color: red;
+   
+}
+
+.forms{
+    width: 100%;
+    height: 370px;
+   
+    position: absolute;
+}
+
+.formdiv{
+    margin:100px auto;
+    width: 100%;
+    /* background-color: ; */
+    position: relative;
+}
+
+input{
+    margin: 5px;
+    height: 30px;
+    width: 182px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: black;
+   border: none;
+border-bottom: 1px solid orange;
+border-top: 1px solid orange;
+
+outline: none;
+text-align: center;
+
+}
+.submit{
+    width: 100px;
+    margin-top: -80px;
+    float: right;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+   margin-right: 50px;
+    background-color: orange;
+        color: white;
+}
+::placeholder{
+   text-align: center;
+    color: gray;
+}
+.divcon{
+    display: grid;
+        grid-template-columns: repeat(2,180px);
+        width: 370px;
+        grid-gap: 5px;
+        margin: auto;
+       
+     
+}
+.joinus{
+  
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-transform: uppercase;
+ font-size: 20px;
+   
+    background-color: orange;
+}
+.uchediv{
+    background:linear-gradient(orange,rgb(0, 0, 0));
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.uchenna{
+text-shadow: 0px 5px  5px black;
+
+font-family: arial black;
+
+}
+.img2,.img3,.img4,.img5,.img6,.img7,.img8,.img9,.img10,.img11,.img12{
+    width: 100%;
+    background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 400px;
+        
+}
+
+.footer{
+   
+    height: 300px;
+    background-color:black;
+   margin-top: 500px;
+   padding-left: 5px;
+}
+.read{
+    width: 100px;
+    background-color: red;
+    margin:70px auto;
+
+
+}
+.buttonread{
+    padding: 5px;
+    font-size: 14px;
+    width: 100px;
+    background-color: orange;
+    color: white;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h3{
+    font-family:lucida sans ;
+    font-size: 15px;
+    line-height: 25px;
+   color: gray;
+}
+
+.location{
+    display: flex;
+    float: right;
+    margin-top: -120px;
+    margin-right: 10px;
+}
+.con,.learn{
+    width: 120px;
+    text-transform: capitalize;
+    color: gray;
+}
+hr{
+    border: 1px solid rgb(167, 165, 165);
+}
+.learn{
+    width: 130px;
+}
+.lpar{
+    color: gray;
+    position: absolute;
+  margin-top: 50px;
+  margin-right: 10px;
+}
+
+.NUMBER{
+    margin-top: 8px;
+}
+
+.help{
+    width: 300px;
+    background-color: #000000b4;
+    margin: auto;
+    position: relative;
+    margin-top: -480px;
+   border-radius: 10px;
+   padding: 10px;
+   margin-bottom: 260px;
+
+}
+.chidiv{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: arial;
+    color: orange;
+    text-shadow: 2px 1px 1px rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 900;
+}
+.navul{
+    background-color: rgba(0, 0, 0, 0.934);
+    width: 100%;
+    float: right;
+    height: 100vh;
+
+top: 0px;
+    position: fixed;
+    
+   
+    color: white;
+    
+    
+}
+.socialimg{
+    width: 100%;
+    background-color: rgb(234, 255, 0);
+    display: flex;
+    margin-top: -20px;
+ 
+}
+.contact{
+    width: 120px;
+    height: 30px;
+   
+    position: relative;
+    display: flex;
+   text-align: center;
+    margin-top: -20px;
+
+}
+.contact p{
+    padding-top: 5px;
+    padding-left:6px;
+}
+.contactimg{
+ 
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    justify-self: center;
+    display: flex;
+    justify-items: center;
+    border-radius: 50px;
+  
+}
+.number{
+    color: white;
+}
+
+
+li{
+    font-size: 20px;
+    line-height: 30px;
+    list-style: none;
+   border-bottom: 1px solid rgba(255, 166, 0, 0.611);
+    text-transform: uppercase;
+      text-align: left;
+      padding-left: 40px;
+       font-family: arial;
+        margin-top: 20px;
+        color: white;
+  
+}
+.lidiv{
+    margin-top: 60px;
+}
+.exit{
+    float: right;
+    margin-bottom: 300px;
+    margin-right: 30px;
+    margin-top: 30px;
+   
+}
+
+.home{
+    color: white;
+}
+
+.lidiv{
+  
+}
+#imgchange{
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ width: 100%;
+ height: 400px
+
+
+}
+
+@media screen and (min-width:760px) {
+    .imgsections1,
+        .imgsections2,
+        .imgsections3,
+        .imgsections4,
+        .imgsections5,
+        .imgsections6,
+        .imgsections7,
+        .imgsections8,
+        .imgsections9,
+        .imgsections10,
+        .imgsections11 {
+            width: 80%;
+            height: 700px;
+    
+            box-shadow: 0px 0px 5px gray;
+            margin: 50px auto;
+        }
+
+                .img2,
+                .img3,
+                .img4,
+                .img5,
+                .img6,
+                .img7,
+                .img8,
+                .img9,
+                .img10,
+                .img11,
+                .img12 {
+                    width: 100%;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-attachment: fixed;
+                    height: 600px;
+        
+                }
+                .submit{
+                    margin-right: 400px;
+                }
+                                imgs{
+                                    height: 500px;
+                                }
+                
+.updatwimg{
+    width: 80%;
+    height: 550px;
+position: relative;
+    margin: auto;
+    margin-top: -400px;
+
+}
+.admins{
+    margin-top: 10px;
+}
+#imgchange {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+
+}
+
+
+
+.slidepic{
+width: 70%;
+height: 300px;
+}
+.imgs{
+    height: 300px;
+}
+.help{
+    width: 700px;
+    margin-bottom: 600px;
+    
+}
+.slidepic{
+    margin-bottom: 500px;
+}
+
+input{
+    width: 370px;
+}
+.divcon {
+    display: grid;
+    grid-template-columns: repeat(2, 380px);
+    width: 690px;
+    grid-gap: 5px;
+    margin: auto;
+}
+.but2{
+        margin-top: -400px;
+}
+.help{
+    margin-top: -700px; 
+    margin-bottom: 500px;  
+}
+.navul{
+    background: none;
+    color: black;
+    position: absolute;
+}
+#slide1,#slide2,#slide3,#slide4,#slide5,#slide6,#slide7{
+height: 700px;
+width: 100%;
+
+
+}
+.slidepic{
+    height: 700px;
+margin-bottom: 300px;
+    
+}
+.home{
+    color: white;
+    display: flex;
+    
+}
+
+
+
+
+li{
+    text-decoration: none;
+    display: flex;
+    border-bottom: none;
+    display: flex;
+   
+}
+.lidiv{
+    display: flex;
+    margin: auto;
+   
+    width: 63%;
+    margin-top: 200px;
+    color: black;
+ 
+}
+
+.lidiv2{
+    width: 100%;
+    background-color: black;
+    margin-top: -20px;
+  
+}
+.paragraphgdiv {
+    width: 80%;
+    margin-bottom: 130px;
+}
+.joinus{
+    padding: 20px;
+    font-size: 30px;
+}
+   .uchenna{
+    font-size: 50px;
+text-shadow: 5px 0px 10px black;
+   }
+  
+}
+@keyframes donate{
+    0%{
+        background-color: black;
+    }
+    33%{
+        background-color: red;
+    }
+}
